@@ -1,0 +1,462 @@
+program_short_name	submitter_id	gender	ethnicity	vital_status	cause_of_death	survival_time
+PACA-AU	ICGC_0001	male	black or african american	deceased	died of cancer	522
+PACA-AU	ICGC_0002	female	caucasian	deceased	died of other reasons	2848
+PACA-AU	ICGC_0003	female	caucasian	alive		1778
+PACA-AU	ICGC_0004	female	caucasian	deceased		1874
+PACA-AU	ICGC_0005	male	asian	deceased		641
+PACA-AU	ICGC_0006	female	black or african american	alive		1715
+PACA-AU	ICGC_0007	female	not reported	deceased		56
+PACA-AU	ICGC_0008	male	asian	deceased		1209
+PACA-AU	ICGC_0009	male	asian	deceased		399
+PACA-AU	ICGC_0010	male	black or african american	deceased		487
+PACA-AU	ICGC_0011	male	not reported	alive		1680
+PACA-AU	ICGC_0012	female	black or african american	deceased		1048
+PACA-AU	ICGC_0013	male	asian	deceased		135
+PACA-AU	ICGC_0014	female	caucasian	deceased		1200
+PACA-AU	ICGC_0015	male	asian	deceased		315
+PACA-AU	ICGC_0016	female	asian	deceased		456
+PACA-AU	ICGC_0017	female	caucasian	deceased		111
+PACA-AU	ICGC_0018	male	not reported	deceased		345
+PACA-AU	ICGC_0019	female	not reported	deceased		858
+PACA-AU	ICGC_0020	male	black or african american	deceased		1259
+PACA-AU	ICGC_0021	male	black or african american	deceased		715
+PACA-AU	ICGC_0022	female	caucasian	deceased		36
+PACA-AU	ICGC_0023	male	caucasian	deceased		942
+PACA-AU	ICGC_0024	male	caucasian	alive		1639
+PACA-AU	ICGC_0025	male	asian	deceased		348
+PACA-AU	ICGC_0026	female	black or african american	deceased		260
+PACA-AU	ICGC_0027	male	asian	deceased		409
+PACA-AU	ICGC_0028	female	asian	deceased		507
+PACA-AU	ICGC_0029	female	not reported	deceased		359
+PACA-AU	ICGC_0030	female	asian	deceased		199
+PACA-AU	ICGC_0031	female	caucasian	deceased		1077
+PACA-AU	ICGC_0032	female	caucasian	deceased		835
+PACA-AU	ICGC_0033	male	black or african american	deceased		768
+PACA-AU	ICGC_0034	female	asian	deceased		92
+PACA-AU	ICGC_0035	female	caucasian	alive		1478
+PACA-AU	ICGC_0036	male	not reported	alive		1253
+PACA-AU	ICGC_0037	male	asian	deceased		154
+PACA-AU	ICGC_0038	male	black or african american	deceased		201
+PACA-AU	ICGC_0039	male	asian	deceased		313
+PACA-AU	ICGC_0040	male	asian	deceased		304
+PACA-AU	ICGC_0041	male	black or african american	alive		1502
+PACA-AU	ICGC_0042	male	asian	deceased		552
+PACA-AU	ICGC_0043	male	caucasian	deceased		717
+PACA-AU	ICGC_0044	female	black or african american	alive		1424
+PACA-AU	ICGC_0045	male	caucasian	deceased		28
+PACA-AU	ICGC_0046	male	black or african american	deceased		234
+PACA-AU	ICGC_0047	male	not reported	alive		1448
+PACA-AU	ICGC_0048	female	black or african american	alive		1258
+PACA-AU	ICGC_0049	male	asian	deceased		516
+PACA-AU	ICGC_0050	male	not reported	alive		1456
+PACA-AU	ICGC_0051	male	asian	deceased		605
+PACA-AU	ICGC_0052	male	not reported	alive		1424
+PACA-AU	ICGC_0053	female	caucasian	deceased		610
+PACA-AU	ICGC_0054	female	asian	deceased		78
+PACA-AU	ICGC_0055	male	asian	deceased		415
+PACA-AU	ICGC_0056	female	caucasian	alive		1170
+PACA-AU	ICGC_0057	male	asian	deceased		363
+PACA-AU	ICGC_0058	female	not reported	deceased		280
+PACA-AU	ICGC_0059	male	caucasian	alive		1258
+PACA-AU	ICGC_0060	male	caucasian	alive		596
+PACA-AU	ICGC_0061	female	caucasian	deceased		970
+PACA-AU	ICGC_0062	male	black or african american	deceased		1
+PACA-AU	ICGC_0063	male	black or african american	alive		1275
+PACA-AU	ICGC_0064	male	black or african american	deceased		434
+PACA-AU	ICGC_0065	male	asian	deceased		127
+PACA-AU	ICGC_0066	male	caucasian	deceased		311
+PACA-AU	ICGC_0067	male	black or african american	deceased		495
+PACA-AU	ICGC_0069	female	caucasian	deceased		1144
+PACA-AU	ICGC_0070	male	asian	deceased		1392
+PACA-AU	ICGC_0071	female	black or african american	deceased		517
+PACA-AU	ICGC_0072	male	not reported	deceased		1105
+PACA-AU	ICGC_0073	male	black or african american	deceased		670
+PACA-AU	ICGC_0074	male	caucasian	deceased		362
+PACA-AU	ICGC_0075	female	black or african american	deceased		476
+PACA-AU	ICGC_0076	male	asian	deceased		142
+PACA-AU	ICGC_0077	female	asian	deceased		549
+PACA-AU	ICGC_0078	female	black or african american	deceased		756
+PACA-AU	ICGC_0079	male	asian	deceased		746
+PACA-AU	ICGC_0080	female	asian	deceased		984
+PACA-AU	ICGC_0081	male	caucasian	alive		1490
+PACA-AU	ICGC_0082	female	asian	deceased		152
+PACA-AU	ICGC_0083	female	black or african american	deceased		1003
+PACA-AU	ICGC_0084	female	black or african american	deceased		381
+PACA-AU	ICGC_0085	male	black or african american	deceased		324
+PACA-AU	ICGC_0086	male	caucasian	deceased		216
+PACA-AU	ICGC_0087	male	black or african american	deceased		361
+PACA-AU	ICGC_0088	male	black or african american	alive		1408
+PACA-AU	ICGC_0089	female	black or african american	deceased		423
+PACA-AU	ICGC_0090	female	asian	deceased		6
+PACA-AU	ICGC_0091	male	asian	deceased		8
+PACA-AU	ICGC_0092	male	black or african american	alive		1395
+PACA-AU	ICGC_0093	male	asian	deceased		125
+PACA-AU	ICGC_0094	female	caucasian	deceased		233
+PACA-AU	ICGC_0095	male	asian	deceased		320
+PACA-AU	ICGC_0096	male	black or african american	deceased		142
+PACA-AU	ICGC_0097	male	not reported	deceased		30
+PACA-AU	ICGC_0098	female	asian	deceased		164
+PACA-AU	ICGC_0099	female	black or african american	deceased		8
+PACA-AU	ICGC_0100	female	asian	deceased		47
+PACA-AU	ICGC_0101	female	asian	alive		1107
+PACA-AU	ICGC_0102	male	not reported	deceased		460
+PACA-AU	ICGC_0103	female	black or african american	deceased		1091
+PACA-AU	ICGC_0104	male	not reported	deceased		653
+PACA-AU	ICGC_0105	male	not reported	deceased		430
+PACA-AU	ICGC_0106	male	not reported	deceased		223
+PACA-AU	ICGC_0107	male	not reported	deceased		563
+PACA-AU	ICGC_0108	male	asian	deceased		423
+PACA-AU	ICGC_0109	male	asian	deceased		913
+PACA-AU	ICGC_0110	male	not reported	deceased		141
+PACA-AU	ICGC_0111	male	black or african american	alive		906
+PACA-AU	ICGC_0112	male	black or african american	deceased		347
+PACA-AU	ICGC_0113	male	not reported	deceased		44
+PACA-AU	ICGC_0114	female	not reported	deceased		499
+PACA-AU	ICGC_0115	female	black or african american	deceased		796
+PACA-AU	ICGC_0116	female	caucasian	deceased		451
+PACA-AU	ICGC_0117	female	asian	deceased		916
+PACA-AU	ICGC_0118	female	asian	deceased		476
+PACA-AU	ICGC_0119	male	black or african american	deceased		343
+PACA-AU	ICGC_0121	female	asian	deceased		130
+PACA-AU	ICGC_0122	female	black or african american	alive		375
+PACA-AU	ICGC_0123	female	caucasian	deceased		1122
+PACA-AU	ICGC_0124	male	caucasian	deceased		465
+PACA-AU	ICGC_0125	female	caucasian	deceased		256
+PACA-AU	ICGC_0128	female	asian	deceased		638
+PACA-AU	ICGC_0130	male	asian	deceased		399
+PACA-AU	ICGC_0131	male	asian	deceased		656
+PACA-AU	ICGC_0132	male	black or african american	deceased		615
+PACA-AU	ICGC_0133	female	asian	alive		1051
+PACA-AU	ICGC_0134	male	not reported	deceased		98
+PACA-AU	ICGC_0135	female	asian	alive		909
+PACA-AU	ICGC_0136	male	black or african american	alive		1001
+PACA-AU	ICGC_0137	male	caucasian	deceased		179
+PACA-AU	ICGC_0138	male	caucasian	alive		1058
+PACA-AU	ICGC_0139	male	caucasian	alive		1014
+PACA-AU	ICGC_0140	female	not reported	alive		1043
+PACA-AU	ICGC_0141	female	not reported	deceased		388
+PACA-AU	ICGC_0143	female	caucasian	alive		909
+PACA-AU	ICGC_0144	male	caucasian	alive		847
+PACA-AU	ICGC_0145	male	not reported	deceased		515
+PACA-AU	ICGC_0146	male	asian	alive		1054
+PACA-AU	ICGC_0147	male	black or african american	deceased		482
+PACA-AU	ICGC_0148	female	not reported	alive		929
+PACA-AU	ICGC_0149	female	not reported	alive		873
+PACA-AU	ICGC_0150	male	caucasian	alive		844
+PACA-AU	ICGC_0152	female	not reported	deceased		695
+PACA-AU	ICGC_0153	female	not reported	deceased		412
+PACA-AU	ICGC_0154	female	not reported	alive		936
+PACA-AU	ICGC_0157	female	caucasian	alive		947
+PACA-AU	ICGC_0158	female	caucasian	alive		224
+PACA-AU	ICGC_0159	female	black or african american	alive		1170
+PACA-AU	ICGC_0161	male	not reported	deceased		110
+PACA-AU	ICGC_0162	female	caucasian	alive		553
+PACA-AU	ICGC_0164	female	caucasian	deceased		506
+PACA-AU	ICGC_0165	male	not reported	deceased
+PACA-AU	ICGC_0166	female	black or african american	alive		855
+PACA-AU	ICGC_0167	female	asian	alive		1042
+PACA-AU	ICGC_0169	female	caucasian	alive		854
+PACA-AU	ICGC_0170	female	black or african american	alive		761
+PACA-AU	ICGC_0173	male	caucasian	deceased		478
+PACA-AU	ICGC_0174	female	not reported	alive		985
+PACA-AU	ICGC_0175	female	black or african american	deceased		132
+PACA-AU	ICGC_0177	male	black or african american	alive		888
+PACA-AU	ICGC_0178	male	asian	deceased		305
+PACA-AU	ICGC_0179	female	not reported	alive		905
+PACA-AU	ICGC_0180	female	asian	alive		864
+PACA-AU	ICGC_0182	female	caucasian	alive		903
+PACA-AU	ICGC_0184	female	black or african american	alive		785
+PACA-AU	ICGC_0185	female	asian	alive		834
+PACA-AU	ICGC_0187	female	asian	alive		685
+PACA-AU	ICGC_0188	male	not reported	deceased		236
+PACA-AU	ICGC_0189	male	asian	alive		832
+PACA-AU	ICGC_0190	male	black or african american	deceased		113
+PACA-AU	ICGC_0191	male	not reported	deceased		356
+PACA-AU	ICGC_0192	male	not reported	deceased		99
+PACA-AU	ICGC_0194	female	caucasian	deceased		303
+PACA-AU	ICGC_0195	female	caucasian	alive		414
+PACA-AU	ICGC_0196	female	caucasian	deceased		96
+PACA-AU	ICGC_0197	female	not reported	alive		798
+PACA-AU	ICGC_0198	female	not reported	alive		417
+PACA-AU	ICGC_0199	male	caucasian	deceased		537
+PACA-AU	ICGC_0201	female	not reported	deceased		709
+PACA-AU	ICGC_0202	male	asian	alive		713
+PACA-AU	ICGC_0203	female	black or african american	alive		749
+PACA-AU	ICGC_0205	male	black or african american	deceased		281
+PACA-AU	ICGC_0206	female	asian	deceased		109
+PACA-AU	ICGC_0207	male	asian	deceased		205
+PACA-AU	ICGC_0208	male	black or african american	deceased		506
+PACA-AU	ICGC_0209	female	caucasian	deceased		523
+PACA-AU	ICGC_0210	male	not reported	deceased		113
+PACA-AU	ICGC_0211	female	not reported	deceased		486
+PACA-AU	ICGC_0212	male	caucasian	deceased		602
+PACA-AU	ICGC_0213	female	asian	deceased		330
+PACA-AU	ICGC_0214	female	caucasian	deceased		400
+PACA-AU	ICGC_0215	female	black or african american	deceased		719
+PACA-AU	ICGC_0216	female	asian	alive		663
+PACA-AU	ICGC_0217	female	caucasian	alive		743
+PACA-AU	ICGC_0218	male	caucasian	deceased		587
+PACA-AU	ICGC_0219	female	caucasian	alive		634
+PACA-AU	ICGC_0220	female	asian	deceased		813
+PACA-AU	ICGC_0221	female	black or african american	deceased		650
+PACA-AU	ICGC_0223	female	caucasian	deceased		220
+PACA-AU	ICGC_0224	female	asian	alive		666
+PACA-AU	ICGC_0225	male	asian	alive		260
+PACA-AU	ICGC_0226	male	asian	alive		523
+PACA-AU	ICGC_0227	female	not reported	deceased		287
+PACA-AU	ICGC_0228	male	black or african american	deceased		468
+PACA-AU	ICGC_0229	male	caucasian	deceased		412
+PACA-AU	ICGC_0230	male	asian	deceased		257
+PACA-AU	ICGC_0232	male	caucasian	deceased		140
+PACA-AU	ICGC_0233	male	caucasian	deceased		464
+PACA-AU	ICGC_0234	female	not reported	alive		715
+PACA-AU	ICGC_0235	female	not reported	deceased		537
+PACA-AU	ICGC_0236	male	caucasian	alive		427
+PACA-AU	ICGC_0237	female	not reported	deceased		183
+PACA-AU	ICGC_0238	male	not reported	deceased		284
+PACA-AU	ICGC_0239	female	not reported	deceased		1352
+PACA-AU	ICGC_0240	female	black or african american	deceased		2423
+PACA-AU	ICGC_0241	male	not reported	alive		1477
+PACA-AU	ICGC_0242	female	caucasian	deceased		394
+PACA-AU	ICGC_0243	female	asian	deceased		937
+PACA-AU	ICGC_0244	male	asian	deceased		153
+PACA-AU	ICGC_0245	female	caucasian	deceased		727
+PACA-AU	ICGC_0246	male	not reported	deceased		1169
+PACA-AU	ICGC_0247	male	not reported	deceased		1284
+PACA-AU	ICGC_0248	female	black or african american	deceased		658
+PACA-AU	ICGC_0249	male	caucasian	deceased		554
+PACA-AU	ICGC_0250	male	not reported	deceased		624
+PACA-AU	ICGC_0251	female	asian	deceased		648
+PACA-AU	ICGC_0252	female	black or african american	deceased		331
+PACA-AU	ICGC_0253	female	caucasian	deceased		167
+PACA-AU	ICGC_0254	male	caucasian	deceased		895
+PACA-AU	ICGC_0255	male	asian	deceased		1112
+PACA-AU	ICGC_0256	male	caucasian	deceased		151
+PACA-AU	ICGC_0257	male	black or african american	deceased		14
+PACA-AU	ICGC_0258	male	asian	deceased		803
+PACA-AU	ICGC_0259	male	asian	deceased		274
+PACA-AU	ICGC_0260	male	caucasian	deceased		716
+PACA-AU	ICGC_0261	female	caucasian	deceased		211
+PACA-AU	ICGC_0262	male	asian	deceased		151
+PACA-AU	ICGC_0263	male	not reported	deceased		650
+PACA-AU	ICGC_0264	female	asian	deceased		890
+PACA-AU	ICGC_0265	male	black or african american	deceased		1009
+PACA-AU	ICGC_0266	female	caucasian	deceased		159
+PACA-AU	ICGC_0267	female	black or african american	deceased		943
+PACA-AU	ICGC_0268	male	asian	deceased		359
+PACA-AU	ICGC_0269	female	not reported	deceased		1737
+PACA-AU	ICGC_0270	female	caucasian	deceased		1081
+PACA-AU	ICGC_0271	male	black or african american	deceased		957
+PACA-AU	ICGC_0272	male	black or african american	deceased		1157
+PACA-AU	ICGC_0273	female	asian	deceased		507
+PACA-AU	ICGC_0274	male	caucasian	alive		422
+PACA-AU	ICGC_0275	male	asian	alive		408
+PACA-AU	ICGC_0276	male	asian	alive		407
+PACA-AU	ICGC_0277	male	caucasian	alive		388
+PACA-AU	ICGC_0278	female	caucasian	alive		592
+PACA-AU	ICGC_0279	male	not reported	alive		359
+PACA-AU	ICGC_0280	male	black or african american	alive		351
+PACA-AU	ICGC_0281	female	not reported	alive		350
+PACA-AU	ICGC_0282	female	not reported	alive		340
+PACA-AU	ICGC_0283	female	not reported	alive		337
+PACA-AU	ICGC_0284	female	asian	alive		304
+PACA-AU	ICGC_0285	female	not reported	deceased		34
+PACA-AU	ICGC_0286	male	caucasian	deceased		333
+PACA-AU	ICGC_0288	female	not reported	alive		492
+PACA-AU	ICGC_0289	female	caucasian	alive		480
+PACA-AU	ICGC_0290	male	asian	alive		484
+PACA-AU	ICGC_0291	male	not reported	alive		385
+PACA-AU	ICGC_0292	female	not reported	alive		296
+PACA-AU	ICGC_0293	female	asian	alive		297
+PACA-AU	ICGC_0294	female	not reported	alive		290
+PACA-AU	ICGC_0295	male	asian	alive		626
+PACA-AU	ICGC_0296	male	caucasian	alive		689
+PACA-AU	ICGC_0298	male	not reported	alive		582
+PACA-AU	ICGC_0299	male	asian	alive		589
+PACA-AU	ICGC_0300	female	asian	alive		540
+PACA-AU	ICGC_0301	male	black or african american	alive		555
+PACA-AU	ICGC_0302	male	caucasian	alive		475
+PACA-AU	ICGC_0303	female	asian	deceased		203
+PACA-AU	ICGC_0304	female	asian	alive		721
+PACA-AU	ICGC_0305	male	asian	alive		493
+PACA-AU	ICGC_0307	male	black or african american	deceased		610
+PACA-AU	ICGC_0308	male	black or african american	alive		252
+PACA-AU	ICGC_0309	female	not reported	deceased		297
+PACA-AU	ICGC_0310	male	asian	deceased		456
+PACA-AU	ICGC_0311	male	caucasian	alive		596
+PACA-AU	ICGC_0312	male	caucasian	deceased		427
+PACA-AU	ICGC_0313	female	not reported	alive		508
+PACA-AU	ICGC_0314	female	asian	deceased		10
+PACA-AU	ICGC_0315	female	asian	deceased		226
+PACA-AU	ICGC_0316	female	black or african american	deceased		82
+PACA-AU	ICGC_0317	male	caucasian	deceased		191
+PACA-AU	ICGC_0318	male	caucasian	deceased		664
+PACA-AU	ICGC_0319	male	black or african american	deceased		578
+PACA-AU	ICGC_0320	female	not reported	deceased		272
+PACA-AU	ICGC_0321	male	caucasian	alive		1142
+PACA-AU	ICGC_0322	male	black or african american	alive		794
+PACA-AU	ICGC_0323	female	caucasian	deceased		363
+PACA-AU	ICGC_0324	male	asian	deceased		506
+PACA-AU	ICGC_0325	female	asian	alive		178
+PACA-AU	ICGC_0326	female	not reported	deceased		272
+PACA-AU	ICGC_0327	male	not reported	deceased
+PACA-AU	ICGC_0328	male	asian	deceased
+PACA-AU	ICGC_0329	female	caucasian	deceased
+PACA-AU	ICGC_0335	male	caucasian	deceased		484
+PACA-AU	ICGC_0336	female	caucasian	deceased		447
+PACA-AU	ICGC_0337	male	black or african american	deceased		420
+PACA-AU	ICGC_0338	male	caucasian	deceased		632
+PACA-AU	ICGC_0339	male	not reported	deceased		579
+PACA-AU	ICGC_0340	female	asian	deceased		307
+PACA-AU	ICGC_0341	male	not reported	alive		764
+PACA-AU	ICGC_0342	male	asian	deceased		189
+PACA-AU	ICGC_0343	female	asian	deceased		994
+PACA-AU	ICGC_0344	male	asian	deceased		944
+PACA-AU	ICGC_0345	female	black or african american	deceased		77
+PACA-AU	ICGC_0346	male	black or african american	deceased		787
+PACA-AU	ICGC_0347	male	not reported	alive		238
+PACA-AU	ICGC_0348	female	caucasian	alive		1591
+PACA-AU	ICGC_0349	female	not reported	deceased		107
+PACA-AU	ICGC_0350	male	black or african american	deceased		155
+PACA-AU	ICGC_0351	female	black or african american	alive		397
+PACA-AU	ICGC_0352	female	black or african american	alive		485
+PACA-AU	ICGC_0353	male	caucasian	deceased		164
+PACA-AU	ICGC_0354	male	black or african american	deceased		168
+PACA-AU	ICGC_0355	male	caucasian	deceased		123
+PACA-AU	ICGC_0356	male	asian	alive		501
+PACA-AU	ICGC_0357	female	caucasian	deceased		143
+PACA-AU	ICGC_0358	male	black or african american	alive		441
+PACA-AU	ICGC_0359	female	not reported	alive		398
+PACA-AU	ICGC_0360	male	asian	alive		447
+PACA-AU	ICGC_0361	male	not reported	alive		406
+PACA-AU	ICGC_0362	female	black or african american	alive		363
+PACA-AU	ICGC_0363	female	asian	alive		326
+PACA-AU	ICGC_0364	female	black or african american	alive		351
+PACA-AU	ICGC_0365	male	caucasian	alive		337
+PACA-AU	ICGC_0366	female	black or african american	deceased		560
+PACA-AU	ICGC_0367	male	caucasian	deceased		357
+PACA-AU	ICGC_0368	male	black or african american	deceased		111
+PACA-AU	ICGC_0369	female	asian	deceased		1256
+PACA-AU	ICGC_0370	male	not reported	deceased		1632
+PACA-AU	ICGC_0371	female	not reported	deceased		185
+PACA-AU	ICGC_0372	female	not reported	alive		564
+PACA-AU	ICGC_0373	male	asian	alive		363
+PACA-AU	ICGC_0374	male	caucasian	deceased		722
+PACA-AU	ICGC_0375	male	black or african american	alive		1920
+PACA-AU	ICGC_0376	female	not reported	deceased		330
+PACA-AU	ICGC_0377	male	black or african american	deceased		56
+PACA-AU	ICGC_0378	male	asian	deceased		13
+PACA-AU	ICGC_0380	male	black or african american	deceased		154
+PACA-AU	ICGC_0381	female	black or african american	deceased		442
+PACA-AU	ICGC_0382	male	asian	alive		505
+PACA-AU	ICGC_0383	female	asian	alive		974
+PACA-AU	ICGC_0384	female	caucasian	deceased		278
+PACA-AU	ICGC_0385	male	black or african american	alive		1042
+PACA-AU	ICGC_0386	female	black or african american	deceased		71
+PACA-AU	ICGC_0387	male	caucasian	alive		603
+PACA-AU	ICGC_0388	female	caucasian	alive		419
+PACA-AU	ICGC_0389	female	asian	alive		302
+PACA-AU	ICGC_0391	male	caucasian	deceased		480
+PACA-AU	ICGC_0392	male	asian	deceased		332
+PACA-AU	ICGC_0393	male	caucasian	alive		83
+PACA-AU	ICGC_0394	male	caucasian	deceased		132
+PACA-AU	ICGC_0395	female	not reported	deceased		260
+PACA-AU	ICGC_0396	male	caucasian	alive		474
+PACA-AU	ICGC_0397	male	not reported	deceased		538
+PACA-AU	ICGC_0398	male	not reported	alive		1429
+PACA-AU	ICGC_0399	female	asian	deceased		894
+PACA-AU	ICGC_0400	female	asian	deceased		568
+PACA-AU	ICGC_0401	female	black or african american	deceased		226
+PACA-AU	ICGC_0402	male	asian	alive		308
+PACA-AU	ICGC_0403	male	caucasian	deceased		385
+PACA-AU	ICGC_0404	female	black or african american	deceased		19
+PACA-AU	ICGC_0405	female	caucasian	alive		487
+PACA-AU	ICGC_0406	female	caucasian	alive		413
+PACA-AU	ICGC_0407	female	caucasian	alive		378
+PACA-AU	ICGC_0408	female	black or african american	alive		419
+PACA-AU	ICGC_0409	male	not reported	deceased		279
+PACA-AU	ICGC_0410	female	black or african american	deceased		10
+PACA-AU	ICGC_0411	male	asian	alive		377
+PACA-AU	ICGC_0412	female	not reported	alive		392
+PACA-AU	ICGC_0413	male	caucasian	deceased		32
+PACA-AU	ICGC_0414	female	asian	alive		349
+PACA-AU	ICGC_0415	female	black or african american	alive		188
+PACA-AU	ICGC_0416	female	asian	alive		350
+PACA-AU	ICGC_0417	male	asian	alive		270
+PACA-AU	ICGC_0418	female	asian	alive		309
+PACA-AU	ICGC_0419	female	not reported	alive		232
+PACA-AU	ICGC_0420	male	not reported	deceased		230
+PACA-AU	ICGC_0421	male	black or african american	alive		272
+PACA-AU	ICGC_0422	female	black or african american	alive		205
+PACA-AU	ICGC_0423	female	black or african american	deceased		369
+PACA-AU	ICGC_0462	male	not reported	deceased		319
+PACA-AU	ICGC_0463	male	black or african american	deceased		1103
+PACA-AU	ICGC_0464	female	black or african american	deceased		755
+PACA-AU	ICGC_0465	female	caucasian	alive		1607
+PACA-AU	ICGC_0466	female	not reported	deceased		267
+PACA-AU	ICGC_0467	male	black or african american	deceased		1263
+PACA-AU	ICGC_0468	female	asian	deceased		128
+PACA-AU	ICGC_0469	female	not reported	alive		1530
+PACA-AU	ICGC_0470	male	asian	deceased		461
+PACA-AU	ICGC_0471	male	caucasian	deceased		1079
+PACA-AU	ICGC_0472	male	caucasian	deceased		543
+PACA-AU	ICGC_0473	female	black or african american	deceased		527
+PACA-AU	ICGC_0474	male	not reported	deceased		279
+PACA-AU	ICGC_0475	male	not reported	alive		254
+PACA-AU	ICGC_0476	male	not reported	deceased		518
+PACA-AU	ICGC_0477	male	asian	deceased		203
+PACA-AU	ICGC_0478	male	black or african american	alive		379
+PACA-AU	ICGC_0479	male	asian	alive		84
+PACA-AU	ICGC_0480	male	caucasian	alive		44
+PACA-AU	ICGC_0481	female	caucasian	alive		545
+PACA-AU	ICGC_0482	female	black or african american	alive		309
+PACA-AU	ICGC_0483	male	caucasian	alive		321
+PACA-AU	ICGC_0484	male	black or african american	deceased		177
+PACA-AU	ICGC_0485	female	caucasian	alive		168
+PACA-AU	ICGC_0486	female	black or african american	deceased		152
+PACA-AU	ICGC_0487	female	not reported	alive		573
+PACA-AU	ICGC_0488	male	caucasian	alive		1328
+PACA-AU	ICGC_0490	male	caucasian	deceased		91
+PACA-AU	ICGC_0493	female	black or african american	deceased		348
+PACA-AU	ICGC_0499	female	black or african american	deceased		238
+PACA-AU	ICGC_0502	female	caucasian	deceased		1021
+PACA-AU	ICGC_0504	male	asian	deceased		414
+PACA-AU	ICGC_0505	male	not reported	deceased		925
+PACA-AU	ICGC_0506		black or african american	alive		2428
+PACA-AU	ICGC_0507	male	caucasian	deceased		1534
+PACA-AU	ICGC_0508	female	black or african american	deceased		823
+PACA-AU	ICGC_0509	male	asian	deceased		112
+PACA-AU	ICGC_0510	male	asian	deceased		1107
+PACA-AU	ICGC_0511	male	caucasian	deceased		514
+PACA-AU	ICGC_0512	female	not reported	deceased		251
+PACA-AU	ICGC_0513	male	black or african american	deceased		1095
+PACA-AU	ICGC_0514	male	black or african american	alive		691
+PACA-AU	ICGC_0515	female	caucasian	alive		869
+PACA-AU	ICGC_0516	male	not reported	deceased		2153
+PACA-AU	ICGC_0517	male	not reported	deceased		123
+PACA-AU	ICGC_0518	male	black or african american	deceased		27
+PACA-AU	ICGC_0519	female	not reported	deceased		1057
+PACA-AU	ICGC_0520	male	asian	deceased		498
+PACA-AU	ICGC_0521	female	caucasian	deceased		429
+PACA-AU	ICGC_0522	male	black or african american	deceased		455
+PACA-AU	ICGC_0523	male	asian	deceased		47
+PACA-AU	ICGC_0524	male	asian	deceased		440
+PACA-AU	ICGC_0525	male	caucasian	alive		1758
+PACA-AU	ICGC_0526	male	not reported	deceased		1
+PACA-AU	ICGC_0527	male	black or african american	deceased		182
+PACA-AU	ICGC_0528	female	black or african american	alive		2703
+PACA-AU	ICGC_0529		asian
+PACA-AU	ICGC_0530	male	caucasian	deceased		464
+PACA-AU	ICGC_0531	female	caucasian	deceased		518
+PACA-AU	ICGC_0532	male	not reported	deceased		445
+PACA-AU	ICGC_0535	female	not reported	alive		222
+PACA-AU	ICGC_0536	male	black or african american	alive		149
+PACA-AU	ICGC_0537	male	not reported	alive		196
+PACA-AU	ICGC_0538	male	asian	alive		197
+PACA-AU	ICGC_0540	male	black or african american	alive		148
+PACA-AU	ICGC_0541	female	asian	alive
+PACA-AU	ICGC_0542	male	caucasian	alive		179
+PACA-AU	ICGC_0543	male	not reported	deceased		156
+PACA-AU	ICGC_0544	female	asian	alive		89
+PACA-AU	ICGC_0546	male	caucasian	alive		32
+PACA-AU	ICGC_0547	male	caucasian	alive		37
