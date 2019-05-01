@@ -9,6 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>clinical-core</module>
+        <module>clinical-server</module>
     </modules>
     <packaging>pom</packaging>
 
