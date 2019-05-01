@@ -1,10 +1,10 @@
 package org.icgc_argo.core.file.reader;
 
-import com.fasterxml.jackson.core.util.Separators;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
-import lombok.SneakyThrows;
+import lombok.*;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.stream.Stream;
@@ -27,11 +27,10 @@ public class TsvReader<T> {
     this.schema = MAPPER.schemaFor(tClass).withColumnSeparator('\t');
   }
 
-  @SneakyThrows
-  public Stream<T> read(Path path) {
-    return Files.lines(path)
-      .skip(1) // Skip over header
-      .map(this::getEntity);
+  public Stream<T> read(@NonNull Path path, boolean containsHeader) throws IOException {
+    Stream<String> stream = Files.readAllLines(path).stream();
+    if (containsHeader) stream = stream.skip(1);
+    return stream.map(this::getEntity);
   }
 
   @SneakyThrows
@@ -40,3 +39,4 @@ public class TsvReader<T> {
   }
 
 }
+
