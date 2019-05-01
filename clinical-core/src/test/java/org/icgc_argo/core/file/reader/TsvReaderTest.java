@@ -3,6 +3,7 @@ package org.icgc_argo.core.file.reader;
 import lombok.SneakyThrows;
 import lombok.val;
 import org.icgc_argo.core.file.model.DonorTsv;
+import org.icgc_argo.core.file.model.SampleTsv;
 import org.icgc_argo.core.file.model.SpecimenTsv;
 import org.junit.jupiter.api.Test;
 
@@ -34,6 +35,18 @@ class TsvReaderTest {
     assertEquals(specimens.get(0).getSpecimenSubmitterId(), "8013858");
     assertEquals(specimens.get(33).getSpecimenType(), "Pleural effusion");
     assertEquals(specimens.size(), 1657);
+  }
+
+  @Test
+  @SneakyThrows
+  void SampleReaderTest() {
+    val reader = new TsvReader<>(SampleTsv.class);
+    val path = Paths.get(getClass().getResource("/fixtures/tsv/sample.tsv").getPath());
+
+    val samples = reader.read(path, true).collect(toUnmodifiableList());
+    assertEquals(samples.get(0).getSampleSubmitterId(), "8013858");
+    assertEquals(samples.get(33).getSampleSubmitterId(), "8031123");
+    assertEquals(samples.size(), 1657);
   }
 
 }
