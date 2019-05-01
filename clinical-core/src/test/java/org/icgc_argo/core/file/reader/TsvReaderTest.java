@@ -32,6 +32,7 @@ class TsvReaderTest {
 
     val specimens = reader.read(path, true).collect(toUnmodifiableList());
     assertEquals(specimens.get(0).getSpecimenSubmitterId(), "8013858");
+    assertEquals(specimens.get(33).getSpecimenType(), "Pleural effusion");
     assertEquals(specimens.size(), 1657);
   }
 
