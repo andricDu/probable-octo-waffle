@@ -11,7 +11,15 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonPropertyOrder({ "program_short_name", "submitter_id", "gender", "ethnicity", "vital_status", "causeOfDeath", "survival_time" })
+@JsonPropertyOrder({
+  "program_short_name",
+  "submitter_id",
+  "gender",
+  "ethnicity",
+  "vital_status",
+  "causeOfDeath",
+  "survival_time"
+})
 public class DonorTsv {
 
   @JsonProperty("program_short_name")
@@ -34,5 +42,4 @@ public class DonorTsv {
 
   @JsonProperty("survival_time")
   Integer survivalTime;
-
 }

@@ -1,5 +1,14 @@
 package org.icgc_argo.server.fs;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.stream.Stream;
+import lombok.val;
 import org.icgc_argo.server.config.StorageProperties;
 import org.icgc_argo.server.service.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,15 +18,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.FileSystemUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
-import java.util.stream.Stream;
 
 @Service
 public class FileSystemStorageService implements StorageService {
@@ -30,8 +30,8 @@ public class FileSystemStorageService implements StorageService {
   }
 
   @Override
-  public void store(MultipartFile file) {
-    String filename = StringUtils.cleanPath(file.getOriginalFilename());
+  public void store(MultipartFile file, String submission) {
+    val filename = StringUtils.cleanPath(file.getOriginalFilename());
     try {
       if (file.isEmpty()) {
         throw new StorageException("Failed to store empty file " + filename);
@@ -39,16 +39,25 @@ public class FileSystemStorageService implements StorageService {
       if (filename.contains("..")) {
         // This is a security check
         throw new StorageException(
-          "Cannot store file with relative path outside current directory "
-            + filename);
+            "Cannot store file with relative path outside current directory " + filename);
       }
       try (InputStream inputStream = file.getInputStream()) {
-        Files.copy(inputStream, this.rootLocation.resolve(filename),
-          StandardCopyOption.REPLACE_EXISTING);
+        val subPath = this.rootLocation.resolve(submission);
+        Files.createDirectories(subPath);
+        Files.copy(inputStream, subPath.resolve(filename), StandardCopyOption.REPLACE_EXISTING);
       }
-    }
-    catch (IOException e) {
+    } catch (IOException e) {
       throw new StorageException("Failed to store file " + filename, e);
+    }
+  }
+
+  @Override
+  public Stream<Path> loadAll(String submission) {
+    val subPath = this.rootLocation.resolve(submission);
+    try {
+      return Files.walk(subPath, 1).filter(path -> !path.equals(subPath));
+    } catch (IOException e) {
+      throw new StorageException("Failed to read stored files", e);
     }
   }
 
@@ -56,13 +65,11 @@ public class FileSystemStorageService implements StorageService {
   public Stream<Path> loadAll() {
     try {
       return Files.walk(this.rootLocation, 1)
-        .filter(path -> !path.equals(this.rootLocation))
-        .map(this.rootLocation::relativize);
-    }
-    catch (IOException e) {
+          .filter(path -> !path.equals(this.rootLocation))
+          .map(this.rootLocation::relativize);
+    } catch (IOException e) {
       throw new StorageException("Failed to read stored files", e);
     }
-
   }
 
   @Override
@@ -77,14 +84,10 @@ public class FileSystemStorageService implements StorageService {
       Resource resource = new UrlResource(file.toUri());
       if (resource.exists() || resource.isReadable()) {
         return resource;
+      } else {
+        throw new StorageFileNotFoundException("Could not read file: " + filename);
       }
-      else {
-        throw new StorageFileNotFoundException(
-          "Could not read file: " + filename);
-
-      }
-    }
-    catch (MalformedURLException e) {
+    } catch (MalformedURLException e) {
       throw new StorageFileNotFoundException("Could not read file: " + filename, e);
     }
   }
@@ -98,11 +101,8 @@ public class FileSystemStorageService implements StorageService {
   public void init() {
     try {
       Files.createDirectories(rootLocation);
-    }
-    catch (IOException e) {
+    } catch (IOException e) {
       throw new StorageException("Could not initialize storage", e);
     }
   }
-
-
 }

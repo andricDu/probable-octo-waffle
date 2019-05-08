@@ -7,3 +7,18 @@ spring:
       enabled: true
       max-file-size: 10MB
       max-request-size: 128KB
+
+  # Datasource
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/clinical?stringtype=unspecified
+    username: postgres
+    password: password
+    max-active: 10
+    max-idle: 1
+    min-idle: 1
+
+  flyway:
+    enabled: false
+
+  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
